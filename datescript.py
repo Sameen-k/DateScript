@@ -34,12 +34,9 @@ def ordertotal(order):
     total = 0.00
     for i in range(0, len(order)):
         total = total + order[i]
-
+    return total
 #how to see if the user went over or under budget 
-if ordertotal > then
-print("you went over budget")
+if ordertotal > date_amount:
 print("you went over budget! You can't afford another date :(")
-
 else 
-print("you stayed within your budget!")
 print("you stayed within budget! You can afford another date! :)")
